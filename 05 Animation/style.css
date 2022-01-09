@@ -1,0 +1,53 @@
+.shop-bg {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.shop-container {
+    display: flex;
+    margin: auto;
+}
+
+.shop-item,.shop-items {
+    width: 33%;
+    padding: 10px;
+}
+
+.shop-item img, .shop-items img {
+    width: 100%;
+    background-color: white;
+    display: block;
+}
+
+.overlay {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    opacity: 0;
+    transition: all 2s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlays-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlays {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 100%;
+    transition: all 1s;
+}
+
+.overlays-wrap:hover .overlays{
+    margin-top: 30%;
+}

@@ -1,0 +1,70 @@
+div, table {
+    box-sizing: border-box;
+}
+div:first-child {
+    background-color: powderblue;
+    padding: 20px;
+}
+
+.table-wrap {
+    width: 100%;
+    max-width: 700px;
+}
+
+h4:first-child {
+    font-size: 30px;
+    color: #4169e1;
+}
+
+table {
+background-color: white;
+border-radius: 5px;
+width: 100%;
+border-collapse: collapse;
+height: 250px;
+margin: auto;
+
+}
+
+tr {
+    border-bottom: 2px solid #4169e150;
+}
+
+.sony {
+    border-bottom: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    text-align: center;
+}
+
+.tdAmount {
+    text-align: right;
+}
+
+.method {
+    margin: 20px 0px;    
+}
+
+a {
+    font-size: 18px;
+    color: royalblue;
+}
+a:visited {
+    color: royalblue
+}
+
+button {
+    float: right;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: navy;
+    border-radius: 5px;
+    cursor: pointer;
+}

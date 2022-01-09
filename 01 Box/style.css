@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+input, div, textarea {
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 18px;
+}
+
+.form-background {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+form {
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    margin: auto;
+}
+
+.form-input {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.w-100 {
+    padding: 10px;
+}
+
+.w-100:last-child {
+    margin: 20px 0;
+    vertical-align: baseline;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+button[type=submit] {
+    float: right;
+    border: none;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

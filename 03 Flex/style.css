@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-box {
+    display: flex;
+    height: 50px;
+    background-color: indianred;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex-item {
+    margin-right: 10px;
+}
